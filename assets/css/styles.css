@@ -1,0 +1,37 @@
+body {
+    background-color: #99cc00;
+    color: #ffffff;
+}
+
+header {
+    background-color: antiquewhite;
+    color:black;
+    height:200;
+    width:800px;
+    margin-left:100px;
+    padding:20px;
+    float:right;
+}
+
+h1{
+    background-color:darkorange;
+    display:inline-block;
+    text-align:center;
+}
+nav {
+    background-color:chocolate;
+    color:darkgreen
+        border:5px dashed white;
+    float:left;
+}
+
+main {
+    background-color:aquamarine;
+    color:maroon
+}
+
+footer {
+    background-color:beige;
+    color:magenta
+}
+
