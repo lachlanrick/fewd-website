@@ -20,6 +20,7 @@ h1 {
     background-color: orange;
     display:inline-block;
     font-size:25px;
+    padding-bottom:10px;
 }
 
 h2{
@@ -38,6 +39,19 @@ p   {
     margin-bottom:10px;
 }
 
+/*anchor styles*/
+a{
+    
+}
+a:hober {
+    
+}
+a:visited  {
+    
+}
+a:active   {
+    
+}
 
 /*TOP RIGHT BOTTOM LEFT*/
 .wrapper    {
@@ -46,12 +60,12 @@ p   {
 }
 
 header {
-    background-color:firebrick;
+    background-color:gray;
     color:;
 /*    height:200px;*/
 /*    width:800px;*/
 /*    margin-left:100px;*/
-    padding:20px;
+    padding:30px;
 }
 
 nav ul{
@@ -60,17 +74,33 @@ nav ul{
 
 nav ul li{
     display:inline;
+    margin-right:10px;
+    
+    
+}
+
+nav ul li a{
+     color:orangered;
+    text-decoration:none;
+    background-color:cornsilk;
+    padding:10px 10px;
+    letter-spacing:2px;
+    
+}
+
+nav ul li a:hover{
+    background-color:aqua;
 }
 
 nav {
-    background-color:yellow;
+    background-color:green;
     color:;
 /*    border:5px dashed red;*/
-/*    width: 40%;*/
-/*    float:right;*/
+    width: 40%;
+    float:right;
     text-align:center;
-    padding-top:20px;
-    padding-bottom:20px;
+    padding-top:2px;
+    padding-bottom:2px;
 }
 main {
     background-color: cadetblue;
