@@ -1,37 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Proza+Libre:wght@600&display=swap');
+
 body {
-    background-color: #99cc00;
-    color: #ffffff;
+    background-color:lightgray;
+    color:#ffffff;
+    font-family:'Open Sans',sans-serif;
+    font-size:16px;
+    
+}
+
+/*typography*/
+
+h1,h2,h3,h4,h5,h6{
+    font-family:'Proza Libra',sans-serif;   
+    margin-bottom:10px 0px 20px 0px;
+
+}
+
+h1 {
+    background-color: orange;
+    display:inline-block;
+    font-size:25px;
+}
+
+h2{
+    font-size:20px;
+    font-weight:;
+    border-bottom:1px solid white;
+    padding:10px 0 10px 0;
+    letter-spacing: 2px;
+    color:#ffffff;
+    background-color:red;
+}
+
+p   {
+    font-size:18px;
+    line-height:30px;
+    margin-bottom:10px;
+}
+
+
+/*TOP RIGHT BOTTOM LEFT*/
+.wrapper    {
+    width:980px;
+    margin:20px auto 0px auto;
 }
 
 header {
-    background-color: antiquewhite;
-    color:black;
-    height:200;
-    width:800px;
-    margin-left:100px;
+    background-color:firebrick;
+    color:;
+/*    height:200px;*/
+/*    width:800px;*/
+/*    margin-left:100px;*/
     padding:20px;
-    float:right;
 }
 
-h1{
-    background-color:darkorange;
-    display:inline-block;
-    text-align:center;
+nav ul{
+    
 }
+
+nav ul li{
+    display:inline;
+}
+
 nav {
-    background-color:chocolate;
-    color:darkgreen
-        border:5px dashed white;
-    float:left;
+    background-color:yellow;
+    color:;
+/*    border:5px dashed red;*/
+/*    width: 40%;*/
+/*    float:right;*/
+    text-align:center;
+    padding-top:20px;
+    padding-bottom:20px;
 }
-
 main {
-    background-color:aquamarine;
-    color:maroon
+    background-color: cadetblue;
+    padding: 20px;
 }
 
 footer {
-    background-color:beige;
-    color:magenta
+    background-color:orange;
+    color:;
+    display:;
+    padding:20px;
 }
 
