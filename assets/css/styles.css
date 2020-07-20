@@ -64,7 +64,8 @@ a:active   {
     margin-bottom:10px;
     padding-right:300px;
     padding-left:300px;
-    text-decoration-color: beige;
+    background-color:beige;
+    padding:50px;
 }
 header {
     background-color:white;
