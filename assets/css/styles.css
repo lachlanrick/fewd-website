@@ -2,10 +2,9 @@
 
 body {
     background-color:lightgray;
-    color:#ffffff;
+    color:#000000;
     font-family:'Open Sans',sans-serif;
     font-size:16px;
-    
 }
 
 /*typography*/
@@ -13,29 +12,26 @@ body {
 h1,h2,h3,h4,h5,h6{
     font-family:'Proza Libre',sans-serif;   
     margin-bottom:10px 0px 20px 0px;
-
 }
 
 h1 {
-    background-color: orange;
+/*    background-color:lightgray;*/
     display:inline-block;
     font-size:25px;
-    padding-bottom:2px;
-    font-family:'Proza Libra',sans-serif;
-    
+    font-family:'Proza Libre',sans-serif;
+    border-style: solid;
 }
 
-h2{
+h2 {
     font-size:20px;
     font-weight:;
-    border-bottom:1px solid white;
-    padding:10px 0 10px 0;
+    border-bottom:1px solid black;
+    padding:10px 0 1px 0;
     letter-spacing: 2px;
-    color:#ffffff;
-    background-color:red;
+    color:#000000;
 }
 
-p   {
+p  {
     font-size:18px;
     line-height:30px;
     margin-bottom:10px;
@@ -49,21 +45,28 @@ a:hover {
     text-decoration:underline;
 }
 a:visited  {
-    color:gray;
+    color:lightblue;
     text-decoration:none;
 }
 a:active   {
     color:red;
 }
 
-/*TOP RIGHT BOTTOM LEFT*/
-.wrapper    {
-    width:980px;
-    margin:20px auto 0px auto;
+/*wrappers*/
+.wrapper {
+    width:1200px;
+    margin:0px auto 0px auto;
 }
 
+.introduction {
+    font-size:18px;
+    line-height:30px;
+    margin-bottom:10px;
+    padding-right:600px;
+    
+}
 header {
-    background-color:gray;
+    background-color:white;
     color:;
 /*    height:200px;*/
 /*    width:800px;*/
@@ -77,40 +80,40 @@ nav ul{
 
 nav ul li{
     display:inline;
-    margin-right:10px;
-
-    
-    
+    margin-right:10px; 
 }
 
 nav ul li a{
-     color:orangered;
+     color:black;
     text-decoration:none;
-    background-color:cornsilk;
-    padding:10px 10px;
-    letter-spacing:2px;
-    
+    background-color:white;
+    letter-spacing:2px;  
 }
 
 nav ul li a:hover{
-    background-color:aqua;
-    text-decoration:none;
 }
 
 nav {
-    background-color:green;
-    color:;
-/*    border:5px dashed red;*/
-    width: 40%;
+    color:black;
+    border:2px solid black;
+    width: 30%;
     float:right;
     text-align:center;
     padding-top:2px;
     padding-bottom:2px;
+    font-size:14px;
 }
+
 main {
-    background-color: cadetblue;
+    background-color: #ffffff;
     padding: 20px;
     overflow:auto;
+}
+
+.herocontent {
+    min-height:700px;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 footer {
@@ -120,6 +123,8 @@ footer {
     padding:20px;
 }
 
+
+
 .leftimg {
     width:65%;
     float:right;
@@ -128,3 +133,5 @@ footer {
     background-color:white;
     margin:20px 0;
 }
+
+
