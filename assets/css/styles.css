@@ -80,6 +80,12 @@ a:active   {
 
 .thirtyfive {
     width:40%;
+    border:2px solid black;
+}
+.thirtee {
+        width:40%;
+        border:2px solid black;
+}
     
 }
 .introduction {
