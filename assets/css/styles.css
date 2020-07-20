@@ -81,6 +81,11 @@ a:active   {
     background-color:beige;
 }
 
+.galleryimages {
+    width:300px;
+    height:300px;
+}
+
 
 header {
     background-color:white;
