@@ -15,12 +15,12 @@ h1,h2,h3,h4,h5,h6{
 }
 
 h1 {
-/*    background-color:lightgray;*/
     display:inline-block;
     font-size:25px;
     font-family:'Proza Libre',sans-serif;
     border-style: solid;
     padding-top: 10px;
+    margin-bottom: 10px;
     text-decoration-line:underline;
 }
 
