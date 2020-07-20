@@ -145,15 +145,6 @@ footer {
     padding:20px;
 }
 
-
-
-.leftimg {
-    width:65%;
-    float:right;
-    border:1px solid grey;
-    padding:20px;
-    background-color:white;
-    margin:20px 0;
+.waterview {
+    border:4px solid black;
 }
-
-
