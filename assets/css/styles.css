@@ -20,6 +20,8 @@ h1 {
     font-size:25px;
     font-family:'Proza Libre',sans-serif;
     border-style: solid;
+    padding-top: 10px;
+    text-decoration-line:underline;
 }
 
 h2 {
@@ -45,7 +47,7 @@ a:hover {
     text-decoration:underline;
 }
 a:visited  {
-    color:lightblue;
+    color:none;
     text-decoration:none;
 }
 a:active   {
@@ -61,6 +63,7 @@ a:active   {
 .robinboyd {
     width:1200px;
     margin:0px auto 0px auto;
+    text-align:center;
 }
 
 .introduction {
@@ -90,9 +93,9 @@ nav ul li{
 }
 
 nav ul li a{
-     color:black;
+     color:none;
     text-decoration:none;
-    background-color:white;
+    background-color:none;
     letter-spacing:2px;  
 }
 
