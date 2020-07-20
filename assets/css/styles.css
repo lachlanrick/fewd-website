@@ -58,6 +58,10 @@ a:active   {
     margin:0px auto 0px auto;
 }
 
+.robinboyd {
+    font-size:10px;
+}
+
 .introduction {
     font-size:16px;
     line-height:30px;
@@ -118,7 +122,7 @@ main {
 }
 
 footer {
-    background-color:orange;
+    background-color:lightgray;
     color:;
     display:;
     padding:20px;
