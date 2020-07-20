@@ -81,11 +81,32 @@ a:active   {
     background-color:beige;
 }
 
+/*
 .galleryimages {
     width:400px;
-    height:600px;
+    height:700px;
+}
+*/
+
+.thirteen {
+    width:30px;
+    height:30px;
 }
 
+.thirtyfive {
+    width:30px;
+    height:30px;
+}
+
+.thirtyeight{
+    width:30px;
+    height:30px;
+}
+
+.five {
+    width:30px;
+    height:30px;
+}
 
 header {
     background-color:white;
@@ -132,10 +153,6 @@ main {
     overflow:auto;
 }
 
-.herocontent {
-    min-height:700px;
-    background-repeat: no-repeat;
-    background-position: center;
 }
 
 footer {
@@ -156,9 +173,5 @@ footer {
     margin:20px 0;
 }
 
-.13 {
-    width:500px;
-    height:500px;
-}
 
 
